@@ -4,17 +4,12 @@
 print ("Content-type: text/html\n\n")
 
 import sys
-from fuzzywuzzy import fuzz
-import csv
 from itertools import zip_longest
 import cgi
 import os, errno ,sys ,glob
-import pandas as pd
-import numpy as np
 import pprint 
 import json
 import ast
-from pandas import read_csv
 import csv
 
 
