@@ -22,9 +22,9 @@ password = 'b8b2d9c5a55984b9dfd5572df413be9c'
 msg.attach(part1)
 msg.attach(part2)
  
-s = smtplib.SMTP('smtp.gmail.com', 587)
+s = smtplib.SMTP('smtp.gmail.com', 993)
 s.set_debuglevel(1)
-s.starttls()
+s.startssll()
  
 s.login(username, password)
  
