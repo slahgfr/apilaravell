@@ -4,9 +4,7 @@
 print ("Content-type: text/html\n\n")
 
 import sys
-from itertools import zip_longest
 import cgi
-import os, errno ,sys ,glob
 import pprint 
 import json
 import ast
